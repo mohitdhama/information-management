@@ -1,0 +1,79 @@
+<!DOCTYPE html5>
+
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+
+
+<span style="color:red">Please note: </span>This example demonstrate how html page can be used and whatever you have typed
+<style>
+label {  
+float: left;  
+width: 10em;  
+margin-right: 1em;  
+ 
+}
+</style>
+<form>
+ Contact info<br>
+<label for="name">Your Name</label>
+<input type="text" name="Name1"><br>
+<label for="email">Email</label><input type="text" name="Email">@<input list="domains" >
+                                           <datalist id="domains">
+                                               <option value="gmail.com">
+                                               <option value="yahoo.com">
+                                               <option value="rediffmail.com">
+                                               <option value="hotmail.com">
+                                                    </datalist><br>
+
+<label for="phone number">Phone no</label><input type="text" name="Phone no"><br>
+<label for="Website">website</label> <input type="text" name="websitex"><br><br>
+<label for="comment">Comment</label><br> <textarea name="comment" rows="5" cols="30"></textarea><br><br>
+
+Text field<br>
+<label for="name">Your Name</label><input type="text" name="Name2"><br><br>
+Password field<br>
+
+<label for="password">Password</label><input type="password" name="poassword3"><br><br>
+   Radio buttons<br>
+<label for="Do you like piza?">Do you like piza?</label><br>
+<input type="radio" name="choise" value="yes" checked>yes<br>
+<input type="radio" name="choise" value="no">no<br>
+<input type="radio" name="choise" value="Maybe">maybe<br>
+<input type="radio" name="choise" value="Never tried">never tried<br><br>
+Check box<br>
+<input type="checkbox" name="feeddback" value="yes">Check this box if u like our service<br><br>
+
+Text area <br> 
+<label for="Any thing u would like to say?">Any thing u would like to say?</label> <br>
+<br><textarea name="feedback2" rows="5" cols="30"></textarea><br><br>
+<label for="I like">I like</label><br>
+<select name="like" size="5" multiple>
+<option value="mushroom" selected>muyshroom</option>
+<option value="mango" >mango</option>
+<option value="banana">banana</option>
+<option value="cheeku">cheku</option>
+<option value="hlva">halva</option>
+</select>
+<br><br>
+
+<label for="Menu">Menu</label><br>
+
+<label for="Your favourite colo">Your favourite color</label><br>
+<select name="color">
+<option value"red" seleced>red</option>
+<option value"green" seleced>green</option>
+</select><br><br>
+<label for="attach file">Your attach file</label>
+<input type="file" name="file upload" value="yes" accept="image/*"><br><br>
+<input type="submit" value="Login">
+<input type="reset" value="reset">
+
+</form>
+
+
+
+</body>
+</html>
